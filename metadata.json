@@ -1,0 +1,7 @@
+{
+  "name": "LinguaFlow AI",
+  "description": "Smart AI-powered multilingual language translation tool with instant translation, speech synthesis, voice input, and telemetry history.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

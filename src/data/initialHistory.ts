@@ -1,0 +1,43 @@
+import { TranslationRecord } from '../types';
+
+export const INITIAL_HISTORY_RECORDS: TranslationRecord[] = [
+  {
+    id: 'rec-1',
+    sourceText: 'Technology is best when it brings people together.',
+    translatedText: 'ಜನರನ್ನು ಒಟ್ಟಿಗೆ ತಂದಾಗ ತಂತ್ರಜ್ಞಾನ ಅತ್ಯುತ್ತಮವಾಗಿರುತ್ತದೆ.',
+    sourceLang: 'en',
+    sourceLangLabel: 'English',
+    targetLang: 'kn',
+    targetLangLabel: 'Kannada',
+    timestamp: 'Today',
+    model: 'Neural Translation',
+    confidence: 99.8,
+    latencyMs: 118,
+  },
+  {
+    id: 'rec-2',
+    sourceText: 'Good morning, how are you?',
+    translatedText: 'ಶುಭೋದಯ, ನೀವು ಹೇಗಿದ್ದೀರಿ?',
+    sourceLang: 'en',
+    sourceLangLabel: 'English',
+    targetLang: 'kn',
+    targetLangLabel: 'Kannada',
+    timestamp: 'Today',
+    model: 'Neural Translation',
+    confidence: 99.8,
+    latencyMs: 118,
+  },
+  {
+    id: 'rec-3',
+    sourceText: 'Artificial intelligence is transforming real-time communication.',
+    translatedText: 'कृत्रिम बुद्धिमत्ता वास्तविक समय के संचार को बदल रही है।',
+    sourceLang: 'en',
+    sourceLangLabel: 'English',
+    targetLang: 'hi',
+    targetLangLabel: 'Hindi',
+    timestamp: 'Yesterday',
+    model: 'Neural Translation',
+    confidence: 99.2,
+    latencyMs: 145,
+  },
+];
